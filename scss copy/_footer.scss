@@ -1,0 +1,17 @@
+/* CSS code for the Footer section. */
+
+
+footer {
+    /* Default: padding-top: 3rem; padding-bottom: 3rem; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* Default: background-color: $red; */
+    background-color: black;
+    font-size: 18px;
+     /* Default: ground-color: $green; */
+    color: lightslategray;
+}
+  
+footer p {
+    margin-bottom: .25rem;
+}

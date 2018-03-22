@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Star Wars Button</title>
+    <!-- Bootstrap core CSS Modules-->
+    <link href="./tools/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./tools/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./tools/font-awesome/css/font-awesome.min.css">
+    <link href="./tools/animate.css">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
+    <link href="" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="./tools/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./tools/magnific-popup/magnific-popup.css">
+
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="body">
+
+    <!--==========================
+    Header Section
+    ============================-->
+
+    <header class="jumbotron text-center" id="main-header">
+        <div class="container">
+            <h1 class="jumbotron-heading">Star Wars API</h1>
+            <div class="jumbotron-text wow fadeInUp" data-wow-duration="3s">
+                <p class="lead text-muted">Star Wars has fascinated people for years.  I decided to expand on the Star Wars API to provide some more detailed information of the films...</p>
+            </div>
+            
+        </div>
+    </header>
+ 
+    <!--==========================
+    Movies Section
+    ============================-->
+
+    <section id="movies">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <h2 class="movie-list" align="center" >Films</h2>
+                    <p class="movie-list" align="left"></p>
+                    <ul id="swFilm">
+                    </ul>
+                    <div class="form-group">
+                        <label for="usr">Movie:</label>
+                        <input type="text" class="form-control" id="swMovieName">
+                        <br>
+                        <button id=swMovieButton class="btn btn-info btn-lg btn-block">Submit</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <h2 class="movie-details" align="center">Details</h2>
+                    <p class="movie-details" align="left"></p>
+                    <ul id="swDetails">
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 wow fadeInUp">
+                    <h2 class="movie-crawl" align="center">Opening Crawl</h2>
+                    <p class="movie-crawl" align="left"></p>
+                    <ul id="swCrawl">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+ 
+    <!--==========================
+    Scripts Section
+    ============================-->
+
+    <!-- Bootstrap & jQuery Scripts - Note: jQuery must be first -->
+    <script src="./tools/jquery/jquery.min.js"></script>
+    <script src="./tools/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- jQuery 3rd Party Scripts-->
+    <script src="./tools/wowjs/wow.min.js"></script>
+    <script src="./tools/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/main.min.js"></script>
+    <script src="js/starWars.js"></script>
+    </div>
+</body>
+
+</html>

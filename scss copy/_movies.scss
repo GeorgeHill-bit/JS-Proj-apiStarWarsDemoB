@@ -1,0 +1,52 @@
+/* ------------------------------
+movies Section
+--------------------------------*/
+.movie-list {
+    /* defaults: background: #fff; padding: 25px 0*/
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    color: beige;
+    list-style-type: none;
+    padding: 0 0;
+}
+
+.movie-crawl {
+    /* defaults: background: #fff; padding: 25px 0*/
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    color: beige;
+    list-style-type: none;
+    padding: 0 0;
+}
+
+.movie-details {
+    /* defaults: background: #fff; padding: 25px 0*/
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    color: beige;
+    list-style-type: none;
+    padding: 0 0;
+}
+
+.swDetails {
+    background: transparent;
+    color: beige;
+    list-style-type: none;
+}
+
+li {
+    color: beige;
+    font-size: 14px;
+}
+
+#movie {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: beige; 
+    text-align: center; 
+    font-style: italic; 
+    font-size: 40px; 
+}

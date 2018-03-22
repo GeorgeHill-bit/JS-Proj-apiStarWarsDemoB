@@ -1,0 +1,18 @@
+
+/****************************
+About Section
+****************************/
+#about {
+    // Default: background: $blue-green;
+    padding-top: 3rem;
+    background: url('../assets/logo/blue-green-bg.jpg') no-repeat center center;
+    font-size: 18px;
+
+}
+
+.about-panel {
+    visibility: visible; 
+    -webkit-animation-delay: 0.1s; 
+    -moz-animation-delay: 0.1s; 
+    animation-delay: 0.1s;
+}

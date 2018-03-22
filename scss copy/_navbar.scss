@@ -1,0 +1,54 @@
+/* ------------------------------
+Navbar Section
+--------------------------------*/
+#main-nav {
+    // padding-top: 1rem;
+    // padding-bottom: 1rem;
+    border-bottom: none;
+    /* Default: transparent; */
+    background: black;
+
+    &:hover {
+      /* Default: transparent; */
+        background: black;
+    }
+
+    .icon-bar {
+      width: 22px;
+      left: 3px;
+      transition: all 2.2s;
+      position: relative;
+
+      &:nth-child(2) {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+      }
+      &:nth-child(3) {
+        // default: opacity: 0;
+        opacity: 0;
+      }
+      &:nth-child(4) {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+      }
+    }
+
+    &.collapsed {
+
+      .icon-bar {
+        left: 0;
+
+        &:nth-child(2) {
+          transform: rotate(50);
+        }
+        &:nth-child(3) {
+          opacity: 1;
+        }
+        &:nth-child(4) {
+          transform: rotate(0);
+        }
+       }
+    }
+}
+
+ 
